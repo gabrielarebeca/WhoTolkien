@@ -1,0 +1,210 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: #181F0F;
+    height: 90px;
+}
+
+.card-group {
+    display: flex;
+}
+
+.card {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    display: inline;
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-link, .containerLogo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    display: block;
+    color: #B8CA77;
+    text-align: center;   
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    transition: background-color 1.3s;
+    transform: scale(1.05);
+    color: #B8CA77;
+}
+
+.logo {
+    margin-left: 25px;
+    width: 171px;
+    height: 72px;
+    float: left;
+}
+
+nav {
+    display: flex;
+    float: right;
+    margin-right: 25px;
+}
+
+.active {
+    border-radius: 10px;
+    background-color: #B8CA77;
+    color: #181F0F;
+}
+
+.navbar-toggler {
+    background-color: #B8CA77;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.articleUm {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    background-color: #181F0F;
+    height: 100%;
+    padding: 30px;
+}
+
+.articleDois {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    background-color: #E9EFEC;
+    padding: 30px;
+}
+
+.articleTres {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #181F0F;
+}
+
+.artigoQuatro {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    background-color: #181F0F;
+    padding: 30px;
+}
+
+.artigoCinco{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    background-color: #E9EFEC;
+    padding: 30px;
+}
+/*Titulo Paragrafos*/
+h1{
+    color: #B8CA77;
+    font-family: 'Merienda';
+    font-weight: 700;
+}
+
+h2 {
+    color: #181F0F;
+    font-family: 'Merienda';
+    font-weight: 700;
+}
+
+h4 {
+    color: #000000; 
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+/*Paragrafos*/
+p {
+    width: 80%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: justify;
+}
+
+.paragrafoBranco {
+    color: #E9EFEC;
+}
+
+.paragrafoVerde{
+    color: #181F0F;
+}
+
+/*Imagens*/
+.dimensaoDois{
+    width: 223px;
+    height: 239px;
+    margin-right: 30px;
+}
+
+.dimensaoTrês{
+    width: 223px;
+    height: 239px;
+    margin-left: 30px;
+}
+
+.dimensaoCinco {
+    width: 116px;
+    height: 186px;
+    margin-right: 30px;
+}
+
+.containerPersonagens{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row; /* Itens em linha */
+    justify-content: space-evenly; /* Cria um espaço entre todos os elementos inclusive ao redor dele */
+    align-items: center;
+}
+
+.dimensao {
+    width: 200px;
+    height: 175px;
+    border-radius: 30px;
+    border: solid 1px;
+}
+
+.persona {
+    flex: 1;
+}
+
+/*Final*/
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #E9EFEC;
+    background-color: #181F0F;
+    width: 100%;
+}
+
