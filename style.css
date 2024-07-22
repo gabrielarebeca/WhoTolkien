@@ -45,7 +45,7 @@ header {
     display: block;
     color: #B8CA77;
     text-align: center;   
-    padding: 10px 18px;
+    padding: 10px 18px;  /*10top; 18right; 10bottom; 18left*/
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ header {
     font-family: 'Merienda';
     font-weight: 600;
     font-size: 30px;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0; /*0top; 0right; 20bottom; 0left*/
 } 
 /*-------- ARTICLE RESUMO ----------------------------------------*/
 .card-body{ /*--articleResumo*/
@@ -98,7 +98,7 @@ header {
     font-family: 'Montserrat';
     font-weight: 500;
     text-align: justify;
-    color: #E9EFEC;;
+    color: #E9EFEC;
 }
 /*-------- ARTICLE Tolkien ----------------------------------------*/
 .card-body-Tolkien{ /*--articleJRRTolkien*/
@@ -136,14 +136,14 @@ header {
     align-items: center;
     text-align: justify;
     color: #E9EFEC;
-    padding: 0 20px 0 30px;
+    padding: 0 20px 0 30px; /*0top; 20right; 0bottom; 30left*/
 }
 
 #size-Obras{    /*- sizeImgObras*/
     width: 223px;
     height: 239px;
     margin-left: 30px;
-    padding: 0 20px 0 0;
+    padding: 0 20px 0 0; /*0top; 20right; 0bottom; 0left*/
 }
 /*-------- ARTICLE Hobbit ----------------------------------------*/
 .card-body-Hobbit{ /*--articleHobbit*/
@@ -172,38 +172,59 @@ header {
     display: flex;
     flex-basis: 13%; /*Define o tamanho inicial de um item antes de aplicar flex-grow ou flex-shrink. */
 }
-/*-------- RODAPÉ ----------------------------------------*/
-footer {
+
+/*-------- TITULO PERSONAGENS ----------------------------------------*/
+.person { /*complemento do card-body para aplicar o padding correto nesse titulo*/
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #E9EFEC;
-    background-color: #181F0F;
-    padding-top: 9px;
+    padding: 16px 0 4px 0; /*16top; 0right; 4bottom; 0left*/
 }
-/*-------- ****** ----------------------------------------*/
-.card-group {
+
+/*-------- CARDS PERSONAGENS ----------------------------------------*/
+.card-group { /*articleCardGeral*/
     display: flex;
 }
 
-.card {
+.card { /*articleCardPersonagem*/
     padding: 5px;
     justify-content: center;
     align-items: center;
+    border-width: 0;
+    background-color: #E9EFEC;
 }
 
-.card-img-top {
-    display: inl;
-    border: solid black 1px;
-    border-radius: 15px;
+.card-body-person { /*elementoCardTituloPeragrafo*/
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
 }
 
-.rounded-4 {
+.card-title-person{ /*--titulosCardPersonagens*/
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+} 
+
+.card-text-person { /*paragrafoCardPersonagens */
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: justify;
+    color: #000000;
+}
+
+.rounded-4 { /*sizeImgCard*/
     max-width: 180px;
     max-height: 180px;
+    padding: 4px 0 4px 0; /*4top; 0right; 4bottom; 0left*/
 }
 
+/*-------- ********* ----------------------------------------*/
 /*Titulo Paragrafos*/
 h1, .card-title{
     color: #B8CA77;
@@ -243,63 +264,13 @@ h4 {
     flex: 1;
 }
 
-/* .articleDois {
+/*-------- RODAPE FOOTER ----------------------------------------*/
+footer {
     display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-    align-items: center;
-    background-color: #E9EFEC;
-    padding: 30px;
-} */
-
-/* .articleTres {
-    display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
     align-items: center;
-    background-color: #181F0F;
-} */
-
-/* .artigoQuatro {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-    align-items: center;
-    background-color: #181F0F;
-    padding: 30px;
-} */
-
-/* .artigoCinco{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-    align-items: center;
-    background-color: #E9EFEC;
-    padding: 30px;
-} */
-
-/*Paragrafos*/
-/* p{
-    width: 80%;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    text-align: justify;
-} */
-
-/* .colorWhite {
     color: #E9EFEC;
-} */
-
-/*Imagens*/
-/* .dimensaoDois{
-    width: 223px;
-    height: 239px;
-    margin-right: 30px;
-} */
-
-/* .dimensaoCinco {
-    width: 116px;
-    height: 186px;
-    margin-right: 30px;
-} */
-
+    background-color: #181F0F;
+    padding-top: 9px;
+}
