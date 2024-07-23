@@ -36,14 +36,24 @@ header {
     margin-top: 20px;
     text-align: justify;
     align-items: center;
+    background-color: #181F0F;
+    color: #B8CA77;
 }
 
-.nav-link { /*--textoNav*/
+.navbar-light {
+    color: #B8CA77;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 18;
+}
+ .nav-link{ /*--textoNav*/
     font-size: 15px;
     font-family: 'Montserrat';
     font-weight: 700;
     display: block;
-    color: #B8CA77;
+    color: #b8ca77;
+    background-color: #181F0F;
     text-align: center;   
     padding: 10px 18px;  /*10top; 18right; 10bottom; 18left*/
     text-decoration: none;
@@ -226,6 +236,16 @@ header {
     background-color: #E9EFEC;
 }
 
+@media screen and (max-width: 900px){
+    .card{
+    display: flex;
+    gap: 20px;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+}
+
 .card-body-person { /*elementoCardTituloPeragrafo*/
     display: flex;
     flex-direction: column;
@@ -274,7 +294,7 @@ header {
     /* flex-direction: column;
     justify-content: center;
     align-items: center; */
-    background-color: #181F0F;
+    background-color: #E9EFEC;
     padding: 30px;
     justify-content: space-around;
 }
@@ -305,6 +325,10 @@ header {
     font-weight: 500;
     text-align: center;
     color: #E9EFEC;
+}
+
+.colorGreen {
+    background-color: #181F0F;
 }
 /*Titulo Paragrafos*/
 /* h1, .card-title{
