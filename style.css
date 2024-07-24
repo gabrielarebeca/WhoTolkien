@@ -16,6 +16,7 @@ main{
 .mb-3 {
     margin-bottom: 0 !important; /*--remove espaço adicinol no final do main*/
 }
+
 /*-------- MENU ----------------------------------------*/
 .logo {
     margin: 8px 0 0 25px;  /*10top; 18right; 10bottom; 18left*/;
@@ -305,19 +306,109 @@ main{
 }
 
 /*-------- ANEIS DO PODER ----------------------------------------*/
+.mb-3-anel { /*centralizaLenda CRIADO PARA TESTE */
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+.card-text-anel {  /*- paragrafoLenda*/
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+    color: #E9EFEC;
+}
+
+.fundoBranco {
+    background-color: #E9EFEC;
+    color: #181F0F;
+}
+
+.fundoVerde {
+    background-color: #181F0F;
+    color: #E9EFEC
+}
+
+.fundoVerde2 {
+    background-color: #181F0F;
+    color: #B8CA77;
+}
+
+/*-------- OS NOVE ANEIS ----------------------------------------*/
+.card-body-aneis{ /*--articleAneis*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 10px 0; /*4top; 0right; 4bottom; 0left*/
+}
+
+.card-title-aneis { /*--titulosNoveAneis*/
+    font-family: 'Merienda';
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.card-subtitle-aneis{ /*--subTituloArtigoAneis*/
+    width: 80%;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.card-text-aneis {  /*- paragrafoAneis*/
+    width: 80%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: justify;
+}
+
+/*-------- OS SETE ANEIS ----------------------------------------*/
+/* .card-body-sete{ /*--tituloOsNoveAneis  CRIADO PARA TESTE
+    display: flex;
+    justify-content: center;
+    background-color: #181F0F;
+    padding-top: 20px;
+}
+
+.card-title-sete { /*--titulosNoveAneis  CRIADO PARA TESTE
+    color: #B8CA77;
+    font-family: 'Merienda';
+    font-weight: 800;
+    font-size: 35px;
+} */
+/* 
+
+card-title-aneis {
+    display: flex;
+    flex-direction: row;
+    color: #B8CA77;
+    font-family: 'Merienda';
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0 0 20px 0; /* 0top; 0right; 20bottom; 0left
+} 
+
 .card-body-aneis { 
     display: flex;
     /* flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     background-color: #E9EFEC;
     padding: 30px;
     justify-content: space-around;
 }
 
 .card-text-left {
-    padding: 0 20px 0 20px; /*4top; 0right; 4bottom; 0left*/
-    gap: 20px;
+    width: 60%; /* Defina a largura desejada
+    margin: 0 auto; /* Isso centraliza a div horizontalmente
+    text-align: center; /* Isso centraliza o texto dentro da div
+    border: 1px solid #ccc; /* Opcional: adiciona uma borda para visualização
+    padding: 20px; /* Opcional: adiciona um espaçamento interno 
 }
 
 .card-body-aneis {
@@ -325,64 +416,8 @@ main{
     justify-content: space-around;
 }
 
-.card-title-aneis {
-    display: flex;
-    flex-direction: row;
-    color: #B8CA77;
-    font-family: 'Merienda';
-    font-weight: 600;
-    font-size: 30px;
-    padding: 0 0 20px 0; /*0top; 0right; 20bottom; 0left*/
-}
-
-.card-text-aneis {  /*- paragrafoResumo*/
-    width: 80%;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    text-align: center;
-    color: #E9EFEC;
-}
-
 .colorGreen {
     background-color: #181F0F;
-}
-/*Titulo Paragrafos*/
-/* h1, .card-title{
-    color: #B8CA77;
-    font-family: 'Merienda';
-    font-weight: 600;
-    font-size: 30px;
-}
-
-h2 {
-    color: #181F0F;
-    font-family: 'Merienda';
-    font-weight: 700;
-}
-
-h4 {
-    color: #000000; 
-    font-family: 'Montserrat';
-    font-weight: 700;
-}
-
-.containerPersonagens{
-    display: flex;
-    flex-grow: 1;
-    flex-direction: row; /* Itens em linha */
-    /* justify-content: space-evenly; Cria um espaço entre todos os elementos inclusive ao redor dele
-    align-items: center;
-}  */
-
-/* .dimensao {
-    width: 200px;
-    height: 175px;
-    border-radius: 30px;
-    border: solid 1px;
-} */
-
-/* .persona {
-    flex: 1;
 } */
 
 /*-------- RODAPE FOOTER ----------------------------------------*/
