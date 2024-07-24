@@ -294,11 +294,27 @@ main{
     padding: 4px 0 4px 0; /*4top; 0right; 4bottom; 0left*/
 }
 
-.rounded-4-person { /*sizeImgCardBilbo%Gandalf*/
+@media screen and (max-width: 450px) {
+    .rounded-4 {
+        max-width: 180px;
+        max-height: 180px;
+        padding: 4px 0 4px 0; /*4top; 0right; 4bottom; 0left*/
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rounded-4 {
+        max-width: 160px;
+        max-height: 160px;
+        padding: 4px 0 4px 0; /*4top; 0right; 4bottom; 0left*/
+    }
+}
+
+/* .rounded-4-person { /*sizeImgCardBilbo%Gandalf
     max-width: 300px;
     max-height: 300px;
-    padding: 4px 0 4px 0; /*4top; 0right; 4bottom; 0left*/
-}
+    padding: 4px 0 4px 0; /*4top; 0right; 4bottom; 0left
+} */
 
 .card-body-collums{
     display: flex;
