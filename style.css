@@ -45,12 +45,6 @@ main{
     color: #B8CA77;
 }
 
-/* .navbar-nav ml-auto {
-    width: 100%;
-    height: 100%;
-    background-color: #181F0F;
-} */
-
 .navbar-nav .nav-link { /*--textoNavhover*/
     padding: 10px 18px;
 }
@@ -75,11 +69,6 @@ main{
     border: 1px solid #B8CA77;
     border-radius: 10px;
 }
-
-/* .nav-link:hover { /*--textoNavhover
-    transition: background-color 1.3s;
-    transform: scale(1.05);
-} */
 
 .active { /*--textoAtivo*/
     border-radius: 10px;
@@ -241,8 +230,25 @@ main{
 }
 
 /*-------- CARDS PERSONAGENS ----------------------------------------*/
+
 .card-group { /*articleCardGeral*/
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 calc(50% - 20px); /* Duas colunas em dispositivos móveis */
+    max-width: calc(50% - 20px); /* Limita a largura para duas colunas */
+    margin-bottom: 20px;
+}
+
+@media (min-width: 700px) {
+    .card {
+        flex: 1 1 calc(25% - 20px); /* Quatro colunas em telas maiores */
+        max-width: calc(25% - 20px); /* Limita a largura para quatro colunas */
+    }
 }
 
 .card { /*articleCardPersonagem*/
@@ -251,16 +257,6 @@ main{
     align-items: center;
     border-width: 0;
     background-color: #E9EFEC;
-}
-
-@media screen and (max-width: 900px){
-    .card{
-    display: flex;
-    gap: 20px;
-    flex-grow: 2;
-    flex-direction: column;
-    justify-content: space-between;
-    }
 }
 
 .card-body-person { /*elementoCardTituloPeragrafo*/
@@ -366,59 +362,6 @@ main{
     font-weight: 500;
     text-align: justify;
 }
-
-/*-------- OS SETE ANEIS ----------------------------------------*/
-/* .card-body-sete{ /*--tituloOsNoveAneis  CRIADO PARA TESTE
-    display: flex;
-    justify-content: center;
-    background-color: #181F0F;
-    padding-top: 20px;
-}
-
-.card-title-sete { /*--titulosNoveAneis  CRIADO PARA TESTE
-    color: #B8CA77;
-    font-family: 'Merienda';
-    font-weight: 800;
-    font-size: 35px;
-} */
-/* 
-
-card-title-aneis {
-    display: flex;
-    flex-direction: row;
-    color: #B8CA77;
-    font-family: 'Merienda';
-    font-weight: 600;
-    font-size: 30px;
-    padding: 0 0 20px 0; /* 0top; 0right; 20bottom; 0left
-} 
-
-.card-body-aneis { 
-    display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E9EFEC;
-    padding: 30px;
-    justify-content: space-around;
-}
-
-.card-text-left {
-    width: 60%; /* Defina a largura desejada
-    margin: 0 auto; /* Isso centraliza a div horizontalmente
-    text-align: center; /* Isso centraliza o texto dentro da div
-    border: 1px solid #ccc; /* Opcional: adiciona uma borda para visualização
-    padding: 20px; /* Opcional: adiciona um espaçamento interno 
-}
-
-.card-body-aneis {
-    display: flex;
-    justify-content: space-around;
-}
-
-.colorGreen {
-    background-color: #181F0F;
-} */
 
 /*-------- RODAPE FOOTER ----------------------------------------*/
 footer {
