@@ -234,15 +234,20 @@ main{
 .card-group { /*articleCardGeral*/
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
 }
 
 .card {
     flex: 1 1 calc(50% - 20px); /* Duas colunas em dispositivos móveis */
     max-width: calc(50% - 20px); /* Limita a largura para duas colunas */
-    margin-bottom: 20px;
 }
+
+/* @media screen and (max-width: 700px) {
+    .card {
+        flex: 1 1 calc(30% - 20px); /* Duas colunas em dispositivos móveis 
+        max-width: calc(30% - 20px); /* Limita a largura para duas colunas 
+    }
+} */
 
 @media (min-width: 700px) {
     .card {
