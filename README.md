@@ -27,8 +27,7 @@
 | CSS3 | Estilização responsiva e personalizada |
 | GitHub Pages | Hospedagem estática do projeto |
 
-## 📸 Preview
-<p align="center"> <img src="https://raw.githubusercontent.com/gabrielarebeca/WhoTolkien/main/Image/preview1.png" width="700px" alt="Preview da página inicial"> </p>
+---
 
 ## 💼 Sobre o Projeto
 Este projeto foi desenvolvido com o objetivo de:
