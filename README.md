@@ -3,7 +3,6 @@
 [![GitHub Pages](https://img.shields.io/badge/🔗%20Acesse%20o%20Projeto-WhoTolkien-1f6f8b.svg)](https://gabrielarebeca.github.io/WhoTolkien/)
 [![Status](https://img.shields.io/badge/status-online-green)](https://gabrielarebeca.github.io/WhoTolkien/)
 [![Feito com HTML/CSS](https://img.shields.io/badge/feito%20com-HTML%20%26%20CSS-orange)]()
-[![Licença MIT](https://img.shields.io/badge/licença-MIT-blue)](LICENSE)
 
 **WhoTolkien** é um projeto web que mergulha no universo literário de J.R.R. Tolkien, trazendo uma apresentação visual e interativa de personagens, locais e artefatos da Terra-média. Foi meu primeiro projeto grande, totalmente feito com foco em design, estrutura e publicação online.
 
