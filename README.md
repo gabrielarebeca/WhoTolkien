@@ -35,4 +35,4 @@ Este projeto foi desenvolvido com o objetivo de:
 - Praticar HTML e CSS em um contexto real
 - Criar uma estrutura de pastas organizada para escalar facilmente
 - Trabalhar com publicação de sites via GitHub Pages
-- Produzir um conteúdo que possa ser incluído no meu portfólio profissional
+
